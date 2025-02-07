@@ -5,9 +5,14 @@ print(x,y)
  """
 
 #Tip Calculator
-bill = 3
-tip = 2
-total = 1
+bill = input("Enter bill amount:")
+tip = input("Enter tip amount:")
+
+bill = float(bill)
+tip = int(tip)
+
+total = bill + tip
+print(f"The bill is ${bill}. The tip is ${tip}. The total is ${total}")
 
 """ #Lists
 values = [1,2.23,5,7,2,30,15]
@@ -30,5 +35,4 @@ y= x.split()
 z = y[1]
 print(y)
 print(z) """
- 
-#
+
