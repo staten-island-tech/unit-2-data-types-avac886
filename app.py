@@ -136,6 +136,7 @@ def tip():
         print("incorrect password")
  """
 
+'''''
 def temp(x):
     if x >= 80: 
         print("too hot")
@@ -145,3 +146,4 @@ def temp(x):
         print("too cold")
 
 x = int(input("what da the temp"))
+'''''
