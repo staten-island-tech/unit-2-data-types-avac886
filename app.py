@@ -42,6 +42,7 @@ print(y)
 print(z)
 '''''
 
+'''''
 #Challenge 1
 sentence = input("Enter a sentence:")
 def WordCount():
@@ -49,5 +50,39 @@ def WordCount():
     print(x)
     print(len(x))
 WordCount()
+'''''
 
-#Challenge 2
+#Mad Libs Project
+Name = input("Write a name:")
+Number1 = input("Write a number:")
+Noun1 = input("Write a noun:")
+Celebrity_Name1 = input("Write a celebrity name:")
+Verb1 = input("Write a verb:")
+Celebrity_Pronouns = input("Write the celebtrity's pronouns:")
+Verb2 = input("Write a verb:")
+Adjective1 = input("Write adjectives:")
+Dumb_Word = input("Write a dumb word:")
+Action = input("Write an action:")
+Adjective2 = input("Write an adjective:")
+Feelings = input("Write feelings:")
+Onomatopiea = input("Write an onomatopiea:")
+print(f"{Name} is a smart lawyer who married into a wealthy
+family. How rich was the family you ask? Well the family's 
+wealth was top {Number1} in {Noun1}! With just one phone call
+{Celebrity_Name1} would come {Verb1} to them as fast as
+{Celebrity_Pronouns} legs can get them. Now with such a wealthy
+family and job, {Name} must be loving his life right now right?
+Quite the contrary actually! Because great wealth comes great
+responsibilities! Everday, {Name} has to {Verb2} to every call
+he gets from his family in law to help soothe out problems. He
+has no freedom! Poor, poor {Name} doesn't even get treated 
+nicely too. Most of all, {Name} doesn't even get a single share
+of the wealth the family has. And so, with a sad married life, 
+{Adjective1} in laws, and a bunch of {Dumb_Word}, {Name} 
+decided to {Action}. This was the {Adjective2} decision of his
+life! He's {Feelings}! But suddenly a car came crashing into
+him and {Onomatopiea}, he's awake. Turns out it was a all a
+dream and he's still stuck with the wealthy family. Such a sad
+life but never fear, {Name} grew closer to the family and the 
+family began to love him as if he was their own. How sweet. 
+The End.")
