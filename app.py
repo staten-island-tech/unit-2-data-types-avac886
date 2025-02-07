@@ -52,8 +52,8 @@ def WordCount():
 WordCount()
 '''''
 
-#Mad Libs Project
-Name = input("Write a name:")
+""" #Mad Libs Project
+Name = input("Write a male name:")
 Number1 = input("Write a number:")
 Noun1 = input("Write a noun:")
 Celebrity_Name1 = input("Write a celebrity name:")
@@ -65,8 +65,11 @@ Dumb_Word = input("Write a dumb word:")
 Action = input("Write an action:")
 Adjective2 = input("Write an adjective:")
 Feelings = input("Write feelings:")
-Onomatopiea = input("Write an onomatopiea:")
-print(f"{Name} is a smart lawyer who married into a wealthy
+Onomatopiea = input("Write an onomatopiea:") """
+
+'''''
+def new_func(Name, Number1, Noun1, Celebrity_Name1, Verb1, Celebrity_Pronouns, Verb2, Adjective1, Dumb_Word, Action, Adjective2, Feelings, Onomatopiea):
+    print(f"""{Name} is a smart lawyer who married into a wealthy
 family. How rich was the family you ask? Well the family's 
 wealth was top {Number1} in {Noun1}! With just one phone call
 {Celebrity_Name1} would come {Verb1} to them as fast as
@@ -85,4 +88,60 @@ him and {Onomatopiea}, he's awake. Turns out it was a all a
 dream and he's still stuck with the wealthy family. Such a sad
 life but never fear, {Name} grew closer to the family and the 
 family began to love him as if he was their own. How sweet. 
-The End.")
+The End.""")
+'''''
+
+""" new_func(Name, Number1, Noun1, Celebrity_Name1, Verb1, Celebrity_Pronouns, Verb2, Adjective1, Dumb_Word, Action, Adjective2, Feelings, Onomatopiea)
+ """
+
+""" #Booleans and Control Flow
+day_of_week = input("What day is it?")
+if day_of_week == "Friday":
+    print("Correct") 
+else:
+    print("Incorrect") """
+
+""" #F Strings
+x = "test"
+print(f"hello {x}")
+
+temp = 60
+if temp > 68:
+    print('warm')
+elif temp == 68:
+    print('perfect')
+else:
+    print('cold') """
+
+#Challenge 1
+number = input("Write a number")
+
+#Challenge 2
+bill = input("How much was the bill?")
+def tip():
+    service = input("How was the service? (Write bad, okay, good, or great)")
+    if service == "bad":
+        total = bill * 0.0 
+
+#Challenge 3
+
+#Challenge 4
+
+
+""" def login(password):
+    #if statement evaluates to true do next line
+    if password == "secret":
+        print("logged in")
+    else:
+        print("incorrect password")
+ """
+
+def temp(x):
+    if x >= 80: 
+        print("too hot")
+    elif x > 60:
+        print("nice")
+    else:
+        print("too cold")
+
+x = int(input("what da the temp"))
