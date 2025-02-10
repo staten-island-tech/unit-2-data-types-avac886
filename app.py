@@ -113,19 +113,37 @@ elif temp == 68:
 else:
     print('cold') """
 
-#Challenge 1
-number = input("Write a number")
+""" #Challenge 1
+def odd_or_even(number):
+    if number % 2 == 0:
+        print("even")
+    else:
+        print("odd")
+odd_or_even(9) """
 
-#Challenge 2
-bill = input("How much was the bill?")
-def tip():
-    service = input("How was the service? (Write bad, okay, good, or great)")
+""" #Challenge 2
+def bill_with_tip(bill):
+    service = input("How was the service?")
     if service == "bad":
-        total = bill * 0.0 
+        total = bill * 1.00
+    if service == "okay":
+        total = bill * 1.15
+    if service == "good":
+        total = bill * 1.20
+    if service == "bad":
+        total = bill * 1.25
+    print(total)
+bill_with_tip(100) """
 
 #Challenge 3
 
+
 #Challenge 4
+
+
+
+
+
 
 
 """ def login(password):
@@ -147,3 +165,8 @@ def temp(x):
 
 x = int(input("what da the temp"))
 '''''
+
+# use modeula to check remaineder for 1 factor
+# use a loop to check all potential factors range(2,15)
+# conditional statement if factor pended to list
+# print list
