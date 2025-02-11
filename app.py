@@ -135,16 +135,19 @@ def bill_with_tip(bill):
     print(total)
 bill_with_tip(100) """
 
-#Challenge 3
+""" #Challenge 3
+def factors(number):
+    factors = []
+    for i in range(1, number + 1):
+        if number % i == 0:
+            factors.append(i)
+    print(factors)
 
+factors(3) """
 
 #Challenge 4
-
-
-
-
-
-
+def gcf(number1, number2):
+    
 
 """ def login(password):
     #if statement evaluates to true do next line
@@ -170,3 +173,14 @@ x = int(input("what da the temp"))
 # use a loop to check all potential factors range(2,15)
 # conditional statement if factor pended to list
 # print list
+
+""" isRich = True
+is21 = True
+def canGamble(isRich, is21):
+    if isRich == True and is21 == True:
+        print("Let it ride!")
+    elif isRich == False and is21 == True:
+        print("You are too poor, get out")
+    elif isRich == False or is21 == False:
+        print("You cannot play")
+ """
