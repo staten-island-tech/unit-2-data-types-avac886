@@ -147,11 +147,7 @@ factors(3) """
 
 #Challenge 4
 def gcf(number1, number2):
-    while number2 != 0:
-        number1, number2 = number2, number1 % number2
-    return number1
-
-print(gcf(10,20))
+    
 
 """ def login(password):
     #if statement evaluates to true do next line
