@@ -135,22 +135,31 @@ def bill_with_tip(bill):
     print(total)
 bill_with_tip(100) """
 
-""" #Challenge 3
-def factors(number):
+'''''
+#Challenge 3
+def factors():
+    number = int(input("Write a number"))
     factors = []
     for i in range(1, number + 1):
         if number % i == 0:
             factors.append(i)
     print(factors)
 
-factors(3) """
+factors()
+'''''
 
+'''''
 #Challenge 4
 def gcf(number1, number2):
-    
+    while number2 != 0:
+        number1, number2 = number2, number1 % number2
+    return number1
+
+print(gcf(20, 40))
+'''''
 
 """ def login(password):
-    #if statement evaluates to true do next line
+    #if statement evaluates to true d next line
     if password == "secret":
         print("logged in")
     else:
