@@ -148,15 +148,16 @@ def factors():
 factors()
 '''''
 
-'''''
-#Challenge 4
-def gcf(number1, number2):
-    while number2 != 0:
-        number1, number2 = number2, number1 % number2
-    return number1
 
-print(gcf(20, 40))
-'''''
+#Challenge 4
+def gcf():
+    a = int(input("Smaller number"))
+    b = int(input("Bigger number"))
+    for i in range(1, a+1):
+        if a % i == 0 and b % i == 0:
+            print(i)
+
+gcf()
 
 """ def login(password):
     #if statement evaluates to true d next line
